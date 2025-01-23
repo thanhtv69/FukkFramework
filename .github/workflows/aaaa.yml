@@ -95,8 +95,6 @@ jobs:
           git clone --depth 1 https://github.com/tryigit/PlayIntegrityFix.git
           
           sudo chmod 777 -R ./*
-          sudo cp -f my_files/aosp-keybox.xml "PlayIntegrityFix/Leaked Keyboxs/💀/aosp.xml"
-          # sudo cp -f my_files/testkey.xml "PlayIntegrityFix/Leaked Keyboxs/💀/testkey.xml"
           
           # Duyệt qua các tệp XML và thực hiện thay thế
           for XML_FILE in "my_files/"*.xml; do
